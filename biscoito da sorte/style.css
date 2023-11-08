@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scren1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 48px 64px 64px 64px;
+    border-radius: 5px;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+    max-width: min-content;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+p{
+    margin: 14px 0 20px 0;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+.biscoito_fechado{
+    cursor: pointer;
+}
+.bt_biscoito{
+   border: none;
+   text-decoration: none;
+   background: #ffffff;
+}
+.bilhete{
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    padding: 10px;
+    margin: 17px 0 17px 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+}
+.bt_outro_biscoito{
+    background: #FF9500;
+    border-radius: 4px;
+    margin-top: 17px;
+    padding: 16px;
+    
+}
+.hide{
+    display: none;
+}
